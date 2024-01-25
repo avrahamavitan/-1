@@ -20,7 +20,7 @@ maindloop: main.o recursived
 maindrec:main.o recursives
 	gcc -Wall -g -o maindrec main.o ./libclassrec.so
 
-all:loops loopd recursived recursives mains maindrec maindloop
+all:mains maindrec maindloop
 
 main.o:NumClass.h
 basicClassification.o: NumClass.h
