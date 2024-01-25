@@ -21,4 +21,4 @@ int fact1(int number);
 
 int ArmstrongRec(int num,int numOFdig);
 
-int isPalindromeRecursive(int originalNum, int currentNum);
+int isPalindromeRecursive(int originalNum, int currentNum, int num);
