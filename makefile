@@ -25,7 +25,7 @@ loopd: main.o basicClassification.o advancedClassificationLoop.o
 %.o: %.c NumClass.h
 	gcc -Wall -g -c $<
 
-all: recursives recursived loopd mains  maindloop maindrec
+all: recursives recursived loopd mains  maindloop maindrec loops
 
 main.o:NumClass.h
 basicClassification.o: NumClass.h
