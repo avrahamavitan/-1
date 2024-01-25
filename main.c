@@ -13,6 +13,14 @@ printf("The Armstrong numbers are:");
         }
     }
 printf("\n");
+    
+printf("The Palindromes are:");
+    for (int i = x; i <= y; i++) {
+        if (isPalindrome(i) == 1) {
+            printf(" %d", i);
+        }
+    }
+printf("\n");
 
     
 printf("The Prime numbers are:");
@@ -23,13 +31,7 @@ printf("The Prime numbers are:");
     }
 printf("\n");
 
-printf("The Palindromes are:");
-    for (int i = x; i <= y; i++) {
-        if (isPalindrome(i) == 1) {
-            printf(" %d", i);
-        }
-    }
-printf("\n");
+
 
     
 printf("The Strong numbers are:");
