@@ -4,7 +4,6 @@ int main()
 {
 int x;
 int y;
-printf("Please enter two numbers: ");
 scanf("%d %d", &x, &y);
 
 printf("The Armstrong numbers are: ");
