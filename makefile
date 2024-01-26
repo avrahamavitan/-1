@@ -1,5 +1,5 @@
 
-all: mains  maindloop maindrec loops
+all: mains  maindloop maindrec
 
 mains: main.o recursives
 	gcc -Wall -g -o mains main.o libclassrec.a -lm
