@@ -1,5 +1,5 @@
 
-all: mains  maindloop maindrec 
+all: mains  maindloop maindrec loops
 
 .PHONY:clean all loops loopd recursives recursived
 
