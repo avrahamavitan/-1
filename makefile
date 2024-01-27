@@ -3,13 +3,13 @@ all: mains  maindloop maindrec
 
 .PHONY:clean all loops loopd recursives recursived
 
-mains: main.o recursives
+mains: main.o libclassrec.a
 	gcc -Wall -g -o mains main.o libclassrec.a -lm
 
-maindloop: main.o loopd
+maindloop: main.o libclassloops.so
 	gcc -Wall -g -o maindloop main.o ./libclassloops.so -lm
 
-maindrec: main.o recursived
+maindrec: main.o libclassrec.so
 	gcc -Wall -g -o maindrec main.o ./libclassrec.so -lm
 
 loops:libclassloops.a
