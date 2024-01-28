@@ -5,7 +5,7 @@ int main()
 int x;
 int y;
 
-scanf("%d %d", &x, &y);
+scanf("%d %d", &x, &y);//הדפסה של כל המספרים הנדרשים
 
 printf("The Armstrong numbers are:");
     for (int i = x; i <= y; i++) {
